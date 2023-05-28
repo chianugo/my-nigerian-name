@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+import { Button, Space } from 'antd';
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+        <Space>
+          <Button type="primary">Primary Button</Button>
+        </Space>
     </div>
   );
 }
